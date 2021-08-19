@@ -11,8 +11,9 @@ I am using TestNG framework along with Maven build tool and using Extent Report 
 
 #How the framework works?
 
-In src/main/java - I have created an utility for constant class, where i have added URL and expected Status code, so that all the data is available in one place.
-In src/test/java - I have written the tests for framework using testNG and added the baseURI in @BoforeMethod, So we dont have to write the baseuri every time in our frameowrk.
+In src/main/java - I have created an utility for constant class, where i have added URL and All Expected Status codes, so that all the data is available in one place.
+
+In src/test/java - I have written the tests for framework using testNG and added the baseURI in @BeforeMethod, So we dont have to write the baseuri every time in our frameowrk.
 
 #What are the Tests i have covered in the Framework?
 
